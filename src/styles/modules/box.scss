@@ -1,0 +1,48 @@
+.header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #feedf1;
+  padding-bottom: 100px;
+  margin-bottom: -85px;
+}
+.logo {
+  width: 100px;
+}
+.main-box {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  &__title {
+    margin-left: 0 !important;
+    font-weight: bold;
+    color: #b1acac;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  &__icon {
+    border-radius: 100%;
+    background: #f791a629;
+    padding: 12px;
+  }
+  .ant-btn {
+    border: none;
+    height: 165px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background: white;
+    border-radius: 12px;
+    box-shadow: none;
+    border-radius: 100%;
+  }
+}
+.chart-box {
+  text-align: center;
+  &__title {
+    margin-bottom: 15px;
+    display: block;
+    font-weight: 600;
+  }
+}
