@@ -1,0 +1,57 @@
+
+// body {
+//   background-color: #f7f7f7 !important;
+// }
+.ant-layout {
+  background: transparent !important;
+}
+.ant-list  {
+  border: none !important;
+}
+.ant-layout-content {
+  // background-color: #f7f7f7;
+  padding: 0 15px;
+  padding-bottom: 30px;
+}
+.ant-page-header {
+  padding: 17px 15px !important;
+  background: transparent;
+}
+.ant-page-header-heading-title {
+  font-size: 16px !important;
+}
+.headerpage {
+  background-color: white;
+}
+.section-header {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.section {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #f7f7f7;
+  &.ft {
+    border-radius: 8px 8px 0 0
+  }
+}
+.form-group {
+  margin: 10px 0;
+}
+.ant-list-item a {
+  color: rgba(0, 0, 0, 0.65);
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  span, a {
+    color: rgba(0, 0, 0, 0.65);
+  }
+  .anticon {
+    margin-right: 10px;
+  }
+}
